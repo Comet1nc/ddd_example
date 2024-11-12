@@ -1,0 +1,27 @@
+{
+    "rest-client.environmentVariables": {
+        "$shared": {
+            "userId": "9cc8996d-81e1-4db4-b914-419f6ae046bd",
+            "adminId": "3c821742-93bb-4551-801b-b33474e2727a",
+            "trainerId": "f08365c7-095c-4f08-a5a6-ee2c8280c5ff",
+            "participantId": "41d6c260-4b55-452c-aa7a-e4785a3a1cd5",
+            "subscriptionId": "02fe456e-cf59-4770-8cf7-d7c646544c0d",
+            "gymId": "62e7637a-2a47-46c1-9bcb-dccc38715abd",
+            "roomId": "e9f035f1-d8e9-42ac-9ab5-9bfa256f915c",
+            "roomId2": "07910dea-d044-4a85-af1c-d02dc7591ffc",
+            "roomId3": "4c33909d-06c9-46a6-8ffe-d6676c197803",
+            "sessionId": "b0b9b8b4-55d6-4d72-abac-830ff223ae1f",
+            "sessionId2": "ada99618-965f-41f7-84a1-2b94a2bf445f",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW1pY2hhaSIsImVtYWlsIjoiYW1pY2hhaUBtYW50aW5iYW5kLmNvbSIsImlkIjoiOWNjODk5NmQtODFlMS00ZGI0LWI5MTQtNDE5ZjZhZTA0NmJkIiwiZXhwIjoxNzEyNjc4MzU4LCJpc3MiOiJVc2VyTWFuYWdlbWVudCIsImF1ZCI6IlVzZXJNYW5hZ2VtZW50In0.SR7lwNrMMZxtI1orRBOe8x6LMqbfa1p2QCT5guYuIpA"
+        },
+        "dev": {
+            "host": "http://localhost:5051"
+        },
+        "docker": {
+            "gym-host": "http://localhost:5100",
+            "session-host": "http://localhost:5101",
+            "user-host": "http://localhost:5102",
+            "foo-host": "http://localhost:80"
+        }
+    }
+}
